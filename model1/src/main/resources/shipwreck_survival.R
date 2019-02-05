@@ -1,17 +1,17 @@
 # Load all the packages required for the analysis
-library(dplyr) # Data Manipulation
-library(Amelia) # Missing Data: Missings Map
-library(ggplot2) # Visualization
-library(scales) # Visualization
-library(caTools) # Prediction: Splitting Data
-library(car) # Prediction: Checking Multicollinearity
-library(ROCR) # Prediction: ROC Curve
-library(e1071) # Prediction: SVM, Naive Bayes, Parameter Tuning
+#library(dplyr) # Data Manipulation
+#library(Amelia) # Missing Data: Missings Map
+#library(ggplot2) # Visualization
+#library(scales) # Visualization
+#library(caTools) # Prediction: Splitting Data
+#library(car) # Prediction: Checking Multicollinearity
+#library(ROCR) # Prediction: ROC Curve
+#library(e1071) # Prediction: SVM, Naive Bayes, Parameter Tuning
 library(rpart) # Prediction: Decision Tree
 library(rpart.plot) # Prediction: Decision Tree
 library(randomForest) # Prediction: Random Forest
 library(caret) # Prediction: k-Fold Cross Validation
-library(doSNOW) #Training in Parallel
+#library(doSNOW) #Training in Parallel
 
 #Read the data
 read_titanic_data = read.csv("Titanic_data.csv")
